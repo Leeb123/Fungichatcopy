@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fungi Chat Board</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Your improved CSS code here */
+        .delete-button {
+            font-size: 12px;
+            padding: 2px 5px;
+        }
+
+        /* Position the username, password, and remember me section */
+        .user-section {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .user-section label {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- User Section -->
+    <div class="user-section">
+        <input type="text" id="username-input" placeholder="Your Username">
+        <input type="password" id="password-input" placeholder="Password">
+        <label for="remember-me">Remember Me</label>
+        <input type="checkbox" id="remember-me">
+    </div>
+
+    <header>
+        <h1>Fungi Chat Board</h1>
+    </header>
+    <!-- Chat Container -->
+    <div class="chat-container" id="chat-container">
+        <div class="message system-message">Welcome to the Fungi Chat Board!</div>
+    </div>
+    
+    <!-- Chat Input Section -->
+    <div class="chat-input">
+        <input type="text" id="message-input" placeholder="Type your message here...">
+        <button id="send-button">Send</button>
+    </div>
+
+    <script>
+        // Your JavaScript code here
+        // ...
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
